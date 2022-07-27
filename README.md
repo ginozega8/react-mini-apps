@@ -1,1 +1,1 @@
-# You can view a live version of this project [here](reactminiapps.netlify.app)
+# You can view a live version of this project [here](https://reactminiapps.netlify.app)
