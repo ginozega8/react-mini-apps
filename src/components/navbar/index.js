@@ -1,15 +1,15 @@
-import React from 'react';
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from "./NavbarElements";
+import { Nav, NavLink, NavMenu} from "./NavbarElements";
 import { AiFillDribbbleCircle } from "react-icons/ai";
 function Navbar() {
+
   return (
     <>
         <Nav>
             <NavLink to="/">
                 <AiFillDribbbleCircle className='nav-icon'/><h1 className='nav-title'>React mini-apps</h1>
             </NavLink>
-            <Bars />
-            <NavMenu>
+
+            <NavMenu className={'nav-menu'}>
                 <NavLink to="/palindrome" activeStyle>
                     Is a palindrome?
                 </NavLink>

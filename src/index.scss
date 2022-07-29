@@ -22,6 +22,9 @@ code {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #15cdfc;
 }
+
+
+
 //Home Section
 .home-div {
   display: flex;
@@ -188,5 +191,8 @@ code {
   }
 }
 
+.ham-menu {
+  transform: scale(2.0)
+}
 
 
